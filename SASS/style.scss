@@ -1,0 +1,27 @@
+/* Variables */ 
+
+$main-color: #626262;		  /* grey */
+$main-color-2: #ffffff;
+$color-details-1: #000000;    
+$color-details-2: #3A3636;    /* dark grey */
+$color-details-3: #D8D8D8;	  /* light grey */
+
+$font: 'Josefin Sans', sans-serif;
+$font-h: 'Yeseva One', cursive;
+
+/* Variables END */
+
+
+
+/* Global */ 
+
+body{
+	margin: 0;
+	text-align: center;
+	display: flex;
+	line-height: 1.7;
+	color: $main-color-2;
+}
+
+/* Global END */
+
