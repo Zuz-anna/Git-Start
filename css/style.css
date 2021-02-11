@@ -1,18 +1,9 @@
-$main-color: #626262;		  /* grey */
-$main-color-2: #ffffff;
-$color-details-1: #000000;    
-$color-details-2: #3A3636;    /* dark grey */
-$color-details-3: #D8D8D8;	  /* light grey */
-
-$font: 'Josefin Sans', sans-serif;
-$font-h: 'Yeseva One', cursive;
-
 /* Global */ 
 
 body{
 	color: #fff;
 	display: flex;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: Josefin Sans, sans-serif;
 	font-size: 16px;
 	line-height: 1.7;
 	margin: 0;
@@ -22,7 +13,7 @@ body{
 /* Global END */
 
 
-/* Poem Title */ 
+/* Content */ 
 
 .container{
 	background: #fff;
@@ -56,6 +47,11 @@ body{
 .poem-content{
 	padding: 30px;
 }
+
+/* Poem content END */
+
+
+/* Footer */
 
 .page-footer{
 	text-align: center;
@@ -95,3 +91,4 @@ body{
 	box-shadow: 4px #ffffff;
 }
 
+/* Footer END */ 
