@@ -1,11 +1,11 @@
 /* Global */ 
 
 body{
-	color: #fff;
-	display: flex;
+	color: #000;
+	display: block;
 	font-family: Josefin Sans, sans-serif;
 	font-size: 16px;
-	line-height: 1.7;
+	line-height: 1.5;
 	margin: 0;
 	text-align: center;
 }
@@ -16,28 +16,32 @@ body{
 /* Content */ 
 
 .container{
-	background: #fff;
-	border-radius: 4px;
-	border: #000;
-	box-shadow: 2px 4px 10px #000;
 	margin: 10px auto;
 	max-width: 1140px;
 	text-align: center;
 	width: 40%;
+	background: #fff;
+	border-radius: 4px;
+	border: #000;
+	box-shadow: 2px 4px 10px #000;
 	transition: all .75s ease-in;
+	display: block;
+
  }
+
+
 
  .container:hover{
  	transition: all .75s ease-in;
-	transform: scale(1.1, 1.1);
+ 	transform: scale(1.1, 1.1);
  }
 
 .poem-data{
-	padding: 5px 30px 10px 30px;
+	padding: 5px 30px 5px 30px;
 }
 
 .poem-title{
-	font-size: 40px;
+	font-size: 35px;
 }
 
 .poem-author{
@@ -45,7 +49,7 @@ body{
 }
 
 .poem-content{
-	padding: 30px;
+	padding: 20px;
 }
 
 /* Poem content END */

@@ -1,0 +1,22 @@
+AUTOPREFIXER-CLI
+
+install: npm i autoprefixer-cli --save-dev
+
+install:npm install --global autoprefixer-cli
+usage: autoprefixer-cli -o main.prefixed.css main.css
+see full documentation: autoprefixer-cli -h
+
+
+HTML-VALIDATE
+
+install: npm i html-validate --save-dev
+
+usage:  npm install -g html-validate
+	html-validate FILENAME..
+test:   npm test
+
+lint:   npm run eslint
+
+build:  npm run build
+to build documentation use: npm run build:docs
+documentation can be served locally using: npm start
